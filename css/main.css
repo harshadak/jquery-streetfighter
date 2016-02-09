@@ -1,84 +1,77 @@
 body {
-	background-color: #000;
+    background-color: #000;
 }
-
 .main {
-	background-color: #fff;
-	margin-top: 110px;
-	padding-left: 100px;
-	min-width: 1200px;
-	height: 500px;
-	position: relative;
-	z-index: 1;
+    background-color: #fff;
+    margin-top: 110px;
+    padding-left: 100px;
+    min-width: 1200px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
 }
-
 .ryu {
-	float: left;
-  width: 659px;
-  height: 494px;
+    float: left;
+    width: 659px;
+    height: 494px;
 }
-
 .hadouken {
-  background-image: url('../images/hadouken.gif');
-  width: 156px; 
-  height: 90px;
-  display: none;
-  float: left;
-  position: absolute;
-  z-index: 10;
-  left: 520px;
-  top: 170px;
+    background-image: url('../images/hadouken.gif');
+    width: 156px;
+    height: 90px;
+    display: none;
+    float: left;
+    position: absolute;
+    z-index: 10;
+    left: 520px;
+    top: 170px;
 }
-
-.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-  width: 659px;
-  height: 494px;
-}
-
-.ryu-ready, .ryu-throwing, .ryu-cool {
-  display: none;
-}
-
-.ryu-ready {
-  background-image: url('../images/ryu-ready-position.gif');
-}
-
-.ryu-still {
-  background-image: url('../images/ryu-standing-still.png');
-}
-
-.ryu-throwing {
-  background-image: url('../images/ryu-throwing-hadouken.png');
-}
-
+.ryu-ready,
+.ryu-still,
+.ryu-throwing,
 .ryu-cool {
-  background-image: url('../images/ryu-cool.gif');
+    width: 659px;
+    height: 494px;
 }
-
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-  background-repeat: no-repeat;
+.ryu-ready,
+.ryu-throwing,
+.ryu-cool {
+    display: none;
 }
-
+.ryu-ready {
+    background-image: url('../images/ryu-ready-position.gif');
+}
+.ryu-still {
+    background-image: url('../images/ryu-standing-still.png');
+}
+.ryu-throwing {
+    background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.ryu-cool {
+    background-image: url('../images/ryu-cool.gif');
+}
+.hadouken,
+.ryu-ready,
+.ryu-still,
+.ryu-throwing,
+.ryu-cool {
+    background-repeat: no-repeat;
+}
 .ryu-instructions {
-  position: absolute;
-  left: 650px;
-  height: 425px;
-  width: 600px;
-  padding-top: 75px;
+    position: absolute;
+    left: 650px;
+    height: 425px;
+    width: 600px;
+    padding-top: 75px;
 }
-
 .how-to {
-  display: block;
+    display: block;
 }
-
 .how-to p {
-  width: 50%;
-  font-size: 24px;
-  line-height: 45px;
+    width: 50%;
+    font-size: 24px;
+    line-height: 45px;
 }
-
 .how-to p:last-child {
-  margin-left: 275px;
+    margin-left: 275px;
 }
-
-
